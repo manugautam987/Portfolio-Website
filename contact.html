@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="Container">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="intro.html">My Intro</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="hamburger">
+                <img class="ham" src="hamburger.png" alt="" width="40">
+            </div>
+            <div class="contactform">
+                <h1>Contact Us</h1>
+                <form>
+                    <div class="name">
+                        <label for="clientname" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="clientname" placeholder="eg.Manu Gautam">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientemail" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="clientemail" placeholder="eg.abc@gmail.com"
+                            aria-describedby="emailHelp">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientphone" class="form-label">Phone</label>
+                        <input type="phone" class="form-control" id="clientphone">
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientcountry" class="form-label">Country</label>
+                        <select name="job" id="job">
+                            <option value="ind" selected>India</option>
+                            <option value="outind">Out Of India</option>
+                        </select>
+                    </div>
+                    <div id="emailHelp" class="form-text">We'll never share your email and phone with anyone else.</div>
+                    <span class="eligebal">
+                        ARE YOU ADULT <input type="checkbox" name="ELIGEBAL">
+                    </span>
+                    <div>
+                    <span class="btn-contact">
+                        <button type="submit" class="btn btn-sm"> <a href="submit.txt">SUBMIT NOW</a></button>
+                        <button type="reset" class="btn btn-sm" inputmode="reset">RESET NOW</button>
+                    </span>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
